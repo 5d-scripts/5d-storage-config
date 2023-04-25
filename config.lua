@@ -16,10 +16,10 @@ _CONFIG =
             insideCoords = vector4(1087.3821, -3099.4797, -40.0000, 277.5054),
             actions = 
             {
-                interactLager = vector3(-2206.3398, 4243.9370, 46.5503), -- Lager Betreten/Verkaufen Menü
-                interactStorage = vector3(1088.6681, -3101.7852, -40.0000), -- Sachen Einlagern Menü
-                exitLager = vector3(1087.3821, -3099.4797, -40.0000),
-                upgradeStorage1 = vector3(1095.0648, -3098.4011, -40.7000),
+                interactLager = vector3(-2206.3398, 4243.9370, 46.5503), -- Enter/Sell Storage Point
+                interactStorage = vector3(1088.6681, -3101.7852, -40.0000), -- Storage Point
+                exitLager = vector3(1087.3821, -3099.4797, -40.0000), -- Exit Point
+                upgradeStorage1 = vector3(1095.0648, -3098.4011, -40.7000), -- Upgrade Point
                 upgradeStorage2 = vector3(1097.6221, -3098.4011, -40.7000),
                 upgradeStorage3 = vector3(1101.2625, -3098.4011, -40.7000)
             },
@@ -103,8 +103,8 @@ _CONFIG =
             insideCoords = vector4(1048.0306, -3097.1931, -38.9999, 264.7357),
             actions = 
             {
-                interactLager = vector3(2335.7864, 4859.5674, 40.8082), -- Lager Betreten/Verkaufen Menü
-                interactStorage = vector3(1049.0140, -3100.5771, -40.0000), -- Sachen Einlagern Menü
+                interactLager = vector3(2335.7864, 4859.5674, 40.8082),
+                interactStorage = vector3(1049.0140, -3100.5771, -40.0000),
                 exitLager = vector3(1048.0306, -3097.1931, -40.0000),
                 upgradeStorage1 = vector3(1065.1637, -3108.3289, -40.7000),
                 upgradeStorage2 = vector3(1060.3878, -3107.9619, -40.7000),
@@ -240,8 +240,8 @@ _CONFIG =
             insideCoords = vector4(1027.5554, -3101.5286, -38.9999, 93.1944),
             actions = 
             {
-                interactLager = vector3(795.2888, -2970.9736, 5.0209), -- Lager Betreten/Verkaufen Menü
-                interactStorage = vector3(994.5197, -3099.9219, -40.0000), -- Sachen Einlagern Menü
+                interactLager = vector3(795.2888, -2970.9736, 5.0209),
+                interactStorage = vector3(994.5197, -3099.9219, -40.0000), 
                 exitLager = vector3(1027.5554, -3101.5286, -40.0000),
                 upgradeStorage1 = vector3(1003.7023, -3098.6682, -40.7000),
                 upgradeStorage2 = vector3(1008.3809, -3098.5918, -40.7000),
