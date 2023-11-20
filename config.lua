@@ -4,8 +4,13 @@ _CONFIG =
     debug = false,
     weaponWeight = 3, -- how much storage capacity does a weapon take?
     weaponDefaultAmmo = 0, -- when removing a weapon from storage, how much ammo should be given? anything other than 0 technically allows duping ammo.
-    useGramms = false, -- toggle this if you represent your item weights as gramms instead of kg. this will simply divide the display capacity value by 1000.
+    useGramms = false, -- set to true if your weights are in gramms instead of kg. notably for inventories like qs-inventory!
     menu_align = "top-left", -- ESX Menu align (top-left, top-right, left, right)
+    quasarInventory = 
+    {
+        enabled = false, -- Set to true if you use qs-inventory
+        storageSlots = 250 -- Amount of Slots in a storage. Empty slots are irrelevant if storage capacity is reached, so I suggest you just leave it at a high number.
+    },
     Lager = 
     { 
         -- SMALL STORAGE
