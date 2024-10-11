@@ -11,6 +11,11 @@ _CONFIG =
         enabled = false, -- Set to true if you use qs-inventory
         storageSlots = 250 -- Amount of Slots in a storage. Empty slots are irrelevant if storage capacity is reached, so I suggest you just leave it at a high number.
     },
+	oxInventory = 
+	{
+		enabled = false, -- Set to true if you use ox_inventory
+		storageSlots = 250 -- Amount of Slots in a storage. Empty slots are irrelevant if storage capacity is reached, so I suggest you just leave it at a high number.
+	},
     Lager = 
     { 
         -- SMALL STORAGE
